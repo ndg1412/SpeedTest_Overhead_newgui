@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_configure">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="80dp"
+            android:id="@+id/etServerIp"
+            android:labelFor="@+id/etServerIp"
+            android:inputType="number|numberDecimal"
+            android:textSize="24sp"
+            android:digits="0123456789."
+            android:background="@color/trans"/>
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="38dp"
+            android:textSize="24sp"
+            android:id="@+id/etServerPort"
+            android:labelFor="@+id/etServerPort"
+            android:inputType="number"
+            android:background="@color/trans"/>
+    </LinearLayout>
+
+	<ImageButton
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="193dp"
+	    android:id="@+id/ibSettingServerOk"
+	    android:background="@drawable/btn_ok_select"/>"
+
+</RelativeLayout>
