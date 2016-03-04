@@ -67,6 +67,6 @@ public class Config {
     public static int TIME_READ = 3000; //in ms
     public static int DOWNLOAD_FILE_SIZE = 10*1024*1024;
 
-    public static String DOWNLOAD_PATH_SCRIPT_START = "/sdcard/speedtest/SpeedTestStart.sh";
-    public static String DOWNLOAD_PATH_SCRIPT_STOP = "/sdcard/speedtest/SpeedTestEnd.sh";
+    public static String DOWNLOAD_PATH_SCRIPT_START = "/data/vision/SpeedTestStart.sh";
+    public static String DOWNLOAD_PATH_SCRIPT_STOP = "/data/vision/SpeedTestEnd.sh";
 }
